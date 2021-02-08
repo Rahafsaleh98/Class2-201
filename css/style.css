@@ -1,0 +1,16 @@
+ h1{
+    text-align: center;
+    color:  green;
+}
+h2 { 
+    background-color: lightgray;
+    color: seagreen;
+}
+
+footer{
+    text-align: center;
+}
+ #mainParagraph{
+     background-color: black;
+     color: white;
+ }
