@@ -14,14 +14,23 @@ if (major ==='yes' || major === 'y') {
 let age = prompt ('Am I 22 years old ?')
 if (age === 'yes'|| age === 'y') {
     alert("correct");
-} else if ( age === 'no' || major === 'n'){ 
+} else if ( age === 'no' || age === 'n'){ 
     alert("Wrong");
 }
+
+
+let love = prompt ('Do I love to learn something new?')
+if (love === 'yes'|| love === 'y') {
+    alert("Amazing !");
+} else if ( love === 'no'|| love === 'n'){ 
+    alert("sorry incorect");
+}
+
 
 let work = prompt ('Am I working ?')
 if (work === 'yes'|| work === 'y') {
     alert("You Won");
-} else if ( work === 'no'|| major === 'n'){ 
+} else if ( work === 'no'|| work === 'n'){ 
     alert("You lose");
 }
 
