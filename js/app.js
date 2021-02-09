@@ -5,14 +5,16 @@ alert ('Hello' + userName + ' let us play a guessing game');
 
 
 let major = prompt ('Did I graduated in majored of English ?')
-if (major ==='yes' || major === 'y') {
+if (major.toLocaleLowerCase ==='yes' || major === 'y') {
     alert("great");
+    score++
 }else if (major === 'no'|| major === 'n') {
     alert("Not correct"); 
 }
+ 
 
 let age = prompt ('Am I 22 years old ?')
-if (age === 'yes'|| age === 'y') {
+if (age.toLocaleLowerCase === 'yes'|| age === 'y') {
     alert("correct");
 } else if ( age === 'no' || age === 'n'){ 
     alert("Wrong");
@@ -20,7 +22,7 @@ if (age === 'yes'|| age === 'y') {
 
 
 let love = prompt ('Do I love to learn something new?')
-if (love === 'yes'|| love === 'y') {
+if (love.toLocaleLowerCase === 'yes'|| love === 'y') {
     alert("Amazing !");
 } else if ( love === 'no'|| love === 'n'){ 
     alert("sorry incorect");
@@ -28,7 +30,7 @@ if (love === 'yes'|| love === 'y') {
 
 
 let work = prompt ('Am I working ?')
-if (work === 'yes'|| work === 'y') {
+if (work.toLocaleLowerCase === 'yes'|| work === 'y') {
     alert("You Won");
 } else if ( work === 'no'|| work === 'n'){ 
     alert("You lose");
