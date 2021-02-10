@@ -8,14 +8,14 @@ let counter = 0;}
  begining()
 
 
-
-let major = prompt ('Did I graduate in majored of English ?')
+function myField(){let major = prompt ('Did I graduate in majored of English ?')
 if (major ==='yes' || major === 'y'){
     alert("great");
 }else if (major === 'no'|| major === 'n'){
     alert("Not correct"); 
     counter++;
-}
+}}myField()
+
 
 let age = prompt ('Am I 22 years old ?')
 if (age === 'yes'|| age === 'y') {
