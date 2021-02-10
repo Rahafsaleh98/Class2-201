@@ -54,8 +54,7 @@ for (let i = 0; i < 5; i++) {
 
 }}Numbers()
 
-
-let countries = ['mecca', 'palistain', 'london', 'oman']
+function world(){let countries = ['mecca', 'palistain', 'london', 'oman']
 let correct = false;
 
 for (let i = 0; i < 6; i++) {
@@ -77,3 +76,4 @@ for (let i = 0; i < 6; i++) {
 if (counter > 5) {
     alert('your score is'   + counter + 'from 5');
 }
+}world()
