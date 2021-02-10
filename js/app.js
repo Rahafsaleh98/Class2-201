@@ -1,8 +1,12 @@
 'use strict';
+function begining (){
+
 let userName = prompt ("what is your name ? ");
 console.log(userName);
 alert ('Hello ' +    userName  +  ' let us play a guessing game');
-let counter = 0;
+let counter = 0;}
+ begining()
+
 
 
 let major = prompt ('Did I graduate in majored of English ?')
