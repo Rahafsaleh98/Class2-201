@@ -34,7 +34,7 @@ if (love === 'yes'|| love === 'y'){
 }
 }prefer()
 
-let number = 5;
+function Numbers(){let number = 5;
 for (let i = 0; i < 5; i++) {
     let Try = prompt('guess a number from 1 to 15');
     if (Try == number) {
@@ -52,7 +52,8 @@ for (let i = 0; i < 5; i++) {
         alert('you can not try any more');
     }
 
-}
+}}Numbers()
+
 
 let countries = ['mecca', 'palistain', 'london', 'oman']
 let correct = false;
