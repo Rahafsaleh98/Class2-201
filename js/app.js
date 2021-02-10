@@ -49,21 +49,24 @@ for (let i = 0; i < 5; i++) {
 
 }
 
-let seasons = ['summer', 'winter', 'autumn', 'spring'];
-
+let countries = ['mecca', 'palistain', 'london', 'oman']
+let correct = false;
 
 for (let i = 0; i < 6; i++) {
-    let mentionSea = prompt('Mention a name of any seasons');
-    if (seasons.includes(mentionSea)) {
-        alert('Amazing ' + userName);
-        counter++;
-        break;
+
+    let favoriteCountries = prompt('what is my favourite country ?');
+    for (let j=0 ;j< countries.length ; j++){
+        if (favoriteCountries == countries [j]) {
+            alert('great'); 
+            correct = true ;
+            break ; 
+        }
     }
-    if (i == 5) {
-        alert('you lose , can not guess any more '); }
+    if (correct) {
+        break ;
+    }
+    alert('my favarite countries are ' + countries );
 }
-
-
 
 if (counter > 5) {
     alert('your score is'   + counter + 'from 5');
