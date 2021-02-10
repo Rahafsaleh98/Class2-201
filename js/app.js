@@ -16,14 +16,14 @@ if (major ==='yes' || major === 'y'){
     counter++;
 }}myField()
 
-
-let age = prompt ('Am I 22 years old ?')
+function myAge(){let age = prompt ('Am I 22 years old ?')
 if (age === 'yes'|| age === 'y') {
     alert("correct");
 } else if ( age === 'no' || age === 'n'){ 
     alert("Wrong");
     counter++;
 }
+}myAge()
 
 let love = prompt ('Do I love to learn something new?')
 if (love === 'yes'|| love === 'y'){
