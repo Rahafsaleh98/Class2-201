@@ -25,13 +25,14 @@ if (age === 'yes'|| age === 'y') {
 }
 }myAge()
 
-let love = prompt ('Do I love to learn something new?')
+function prefer(){let love = prompt ('Do I love to learn something new?')
 if (love === 'yes'|| love === 'y'){
     alert("Amazing !");
 } else if ( love === 'no'|| love === 'n'){ 
     alert("sorry incorect");
     counter++;
 }
+}prefer()
 
 let number = 5;
 for (let i = 0; i < 5; i++) {
